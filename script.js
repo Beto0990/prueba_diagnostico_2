@@ -6,6 +6,8 @@ document.addEventListener('DOMContentLoaded', function() {
     let selectedSubtype = null;
     let selectedConfig = null;
     let selectedSymptoms = [];
+    let selectedAnswers = [];
+    let finalFailure = null;
 
     async function fetchData() {
         categories = await fetch('Categorías.json').then(response => response.json());
@@ -21,6 +23,10 @@ document.addEventListener('DOMContentLoaded', function() {
     async function startQuestionnaire() {
         await fetchData();
         currentStep = 1;
+        selectedSymptoms = [];
+        selectedAnswers = [];
+        finalFailure = null;
+        document.getElementById('save-pdf-button').style.display = 'none';
         showCategories();
     }
 
@@ -127,12 +133,13 @@ document.addEventListener('DOMContentLoaded', function() {
         answers.filter(answer => answer.preguntaID === question.preguntaID).forEach(answer => {
             const button = document.createElement('button');
             button.textContent = answer.texto;
-            button.onclick = () => selectAnswer(answer);
+            button.onclick = () => selectAnswer(answer, question.texto);
             section.appendChild(button);
         });
     }
 
-    function selectAnswer(answer) {
+    function selectAnswer(answer, questionText) {
+        selectedAnswers.push({ question: questionText, answer: answer.texto });
         if (answer.siguientePreguntaID) {
             const nextQuestion = questions.find(question => question.preguntaID === answer.siguientePreguntaID);
             showQuestion(nextQuestion);
@@ -142,17 +149,81 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function showDiagnosis(failureID) {
-        const failure = failures.find(f => f.fallaID === failureID);
+        finalFailure = failures.find(f => f.fallaID === failureID);
         const section = document.getElementById('questionnaire-section');
         section.innerHTML = `
             <h2>Diagnóstico</h2>
-            <p>Falla: ${failure.nombre}</p>
-            <p>Recomendación: ${failure.diagnostico}</p>
-            <p>Repuestos: ${failure.repuestos}</p>
-            <p>Herramientas: ${failure.herramientas}</p>
+            <p>Falla: ${finalFailure.nombre}</p>
+            <p>Recomendación: ${finalFailure.diagnostico}</p>
+            <p>Repuestos: ${finalFailure.repuestos}</p>
+            <p>Herramientas: ${finalFailure.herramientas}</p>
         `;
+        document.getElementById('save-pdf-button').style.display = 'block';
+    }
+
+    async function generatePDF() {
+        const { jsPDF } = window.jspdf;
+        const doc = new jsPDF();
+
+        let y = 10;
+        doc.setFontSize(16);
+        doc.text("Cuestionario de Falla", 10, y);
+        y += 10;
+
+        doc.setFontSize(14);
+        doc.text("Selección de Categoría a Síntoma:", 10, y);
+        y += 10;
+
+        doc.setFontSize(12);
+        doc.text(`Categoría: ${selectedCategory.nombre}`, 10, y);
+        y += 7;
+        doc.text(`Tipo de Producto: ${selectedProduct.nombre}`, 10, y);
+        y += 7;
+        doc.text(`Subtipo: ${selectedSubtype.nombre}`, 10, y);
+        y += 7;
+        if (selectedConfig) {
+            doc.text(`Configuración: ${selectedConfig.nombre}`, 10, y);
+            y += 7;
+        }
+        selectedSymptoms.forEach((symptom, index) => {
+            doc.text(`Síntoma ${index + 1}: ${symptom.nombre}`, 10, y);
+            y += 7;
+        });
+
+        y += 10;
+        doc.setFontSize(14);
+        doc.text("Respuestas Seleccionadas:", 10, y);
+        y += 10;
+
+        doc.setFontSize(12);
+        selectedAnswers.forEach((item, index) => {
+            doc.text(`${index + 1}. ${item.question}`, 10, y);
+            y += 7;
+            doc.text(`Respuesta: ${item.answer}`, 10, y);
+            y += 10;
+        });
+
+        y += 10;
+        doc.setFontSize(14);
+        doc.text("Diagnóstico:", 10, y);
+        y += 10;
+
+        doc.setFontSize(12);
+        if (finalFailure) {
+            doc.text(`Falla: ${finalFailure.nombre}`, 10, y);
+            y += 7;
+            doc.text(`Recomendación: ${finalFailure.diagnostico}`, 10, y);
+            y += 7;
+            doc.text(`Repuestos: ${finalFailure.repuestos}`, 10, y);
+            y += 7;
+            doc.text(`Herramientas: ${finalFailure.herramientas}`, 10, y);
+            y += 7;
+        }
+
+        doc.save('cuestionario_de_falla.pdf');
     }
 
     window.startQuestionnaire = startQuestionnaire;
+    window.generatePDF = generatePDF;
 });
 
