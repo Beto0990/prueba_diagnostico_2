@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    background-color: #034C8C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #454B59;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #048ABF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 120px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button.secondary {
+    background-color: #6c757d;
+}
+
+button.secondary:hover {
+    background-color: #5a6268;
+}
+
+button.warning {
+    background-color: #ffc107;
+}
+
+button.warning:hover {
+    background-color: #e0a800;
+}
+
+button.danger {
+    background-color: #dc3545;
+}
+
+button.danger:hover {
+    background-color: #c82333;
+}
+
+button.back {
+    background-color: #ff4d4d;
+}
+
+button.back:hover {
+    background-color: #ff1a1a;
+}
+
+#diagnostico p {
+    background-color: #ffcccc;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ff9999;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar button {
+    width: 100%;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,21 @@
+[
+    {"subtipoID": 1, "tipoProductoID": 1, "nombre": "Carga frontal"},
+    {"subtipoID": 2, "tipoProductoID": 1, "nombre": "Carga superior"},
+    {"subtipoID": 3, "tipoProductoID": 2, "nombre": "Eléctrica"},
+    {"subtipoID": 4, "tipoProductoID": 2, "nombre": "A gas"},
+    {"subtipoID": 5, "tipoProductoID": 3, "nombre": "Lavadora"},
+    {"subtipoID": 6, "tipoProductoID": 3, "nombre": "Secadora"},
+    {"subtipoID": 7, "tipoProductoID": 4, "nombre": "Lavadora"},
+    {"subtipoID": 8, "tipoProductoID": 4, "nombre": "Secadora"},
+    {"subtipoID": 9, "tipoProductoID": 5, "nombre": "Top Mount"},
+    {"subtipoID": 10, "tipoProductoID": 5, "nombre": "Side by Side"},
+    {"subtipoID": 11, "tipoProductoID": 5, "nombre": "French Door"},
+    {"subtipoID": 12, "tipoProductoID": 6, "nombre": "Vertical"},
+    {"subtipoID": 13, "tipoProductoID": 6, "nombre": "Horizontal"},
+    {"subtipoID": 14, "tipoProductoID": 7, "nombre": "Con horno"},
+    {"subtipoID": 15, "tipoProductoID": 7, "nombre": "Tipo cooktop"},
+    {"subtipoID": 16, "tipoProductoID": 8, "nombre": "Con horno"},
+    {"subtipoID": 17, "tipoProductoID": 8, "nombre": "Tipo cooktop"},
+    {"subtipoID": 18, "tipoProductoID": 9, "nombre": "Con horno"},
+    {"subtipoID": 19, "tipoProductoID": 9, "nombre": "Tipo cooktop"}
+  ]

@@ -1,0 +1,11 @@
+[
+    {"configuracionID": 1, "subtipoID": 1, "nombre": "Apilada"},
+    {"configuracionID": 2, "subtipoID": 1, "nombre": "No apilada"},
+    {"configuracionID": 3, "subtipoID": 3, "nombre": "Apilada"},
+    {"configuracionID": 4, "subtipoID": 3, "nombre": "No apilada"},
+    {"configuracionID": 5, "subtipoID": 4, "nombre": "Apilada"},
+    {"configuracionID": 6, "subtipoID": 4, "nombre": "No apilada"},
+    {"configuracionID": 7, "subtipoID": 7, "nombre": "Carga frontal"},
+    {"configuracionID": 8, "subtipoID": 7, "nombre": "Carga superior"}
+  ]
+  
