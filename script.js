@@ -152,11 +152,18 @@ document.addEventListener('DOMContentLoaded', function() {
         finalFailure = failures.find(f => f.fallaID === failureID);
         const section = document.getElementById('questionnaire-section');
         section.innerHTML = `
-            <h2>Diagnóstico</h2>
-            <p>Falla: ${finalFailure.nombre}</p>
-            <p>Recomendación: ${finalFailure.diagnostico}</p>
-            <p>Repuestos: ${finalFailure.repuestos}</p>
-            <p>Herramientas: ${finalFailure.herramientas}</p>
+            <div id="diagnosis">
+                <h3 class="failure">Falla: ${finalFailure.nombre}</h3>
+                <div class="recommendation">
+                    <h3>Recomendación:</h3>
+                    <p>${finalFailure.diagnostico}</p>
+                </div>
+                <div class="technical-info">
+                    <h3>Información para Técnico:</h3>
+                    <p><strong>Repuestos:</strong> ${finalFailure.repuestos}</p>
+                    <p><strong>Herramientas:</strong> ${finalFailure.herramientas}</p>
+                </div>
+            </div>
         `;
         document.getElementById('save-pdf-button').style.display = 'block';
     }
@@ -226,4 +233,3 @@ document.addEventListener('DOMContentLoaded', function() {
     window.startQuestionnaire = startQuestionnaire;
     window.generatePDF = generatePDF;
 });
-
