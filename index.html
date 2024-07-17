@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cuestionario de Falla</title>
     <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
 </head>
 <body>
     <header>
@@ -15,6 +16,7 @@
             <h3>Menú</h3>
             <div id="menu">
                 <button onclick="startQuestionnaire()">Iniciar Cuestionario</button>
+                <button onclick="generatePDF()" id="save-pdf-button" style="display: none;">Guardar PDF</button>
             </div>
         </aside>
         <main class="main-content">
