@@ -63,22 +63,5 @@
     {"sintomaID": 62, "subtipoID": 11, "configuracionID": null, "nombre": "No dispensa agua o hielo"},
     {"sintomaID": 63, "subtipoID": 12, "configuracionID": null, "nombre": "No congela"},
     {"sintomaID": 64, "subtipoID": 13, "configuracionID": null, "nombre": "No congela"},
-    {"sintomaID": 65, "subtipoID": 14, "configuracionID": null, "nombre": "Hornilla"},
-    {"sintomaID": 66, "subtipoID": 14, "configuracionID": null, "nombre": "Válvula"},
-    {"sintomaID": 67, "subtipoID": 14, "configuracionID": null, "nombre": "Perilla"},
-    {"sintomaID": 68, "subtipoID": 15, "configuracionID": null, "nombre": "Hornilla"},
-    {"sintomaID": 69, "subtipoID": 15, "configuracionID": null, "nombre": "Válvula"},
-    {"sintomaID": 70, "subtipoID": 15, "configuracionID": null, "nombre": "Perilla"},
-    {"sintomaID": 71, "subtipoID": 16, "configuracionID": null, "nombre": "Hornilla"},
-    {"sintomaID": 72, "subtipoID": 16, "configuracionID": null, "nombre": "Válvula"},
-    {"sintomaID": 73, "subtipoID": 16, "configuracionID": null, "nombre": "Perilla"},
-    {"sintomaID": 74, "subtipoID": 17, "configuracionID": null, "nombre": "Hornilla"},
-    {"sintomaID": 75, "subtipoID": 17, "configuracionID": null, "nombre": "Válvula"},
-    {"sintomaID": 76, "subtipoID": 17, "configuracionID": null, "nombre": "Perilla"},
-    {"sintomaID": 77, "subtipoID": 18, "configuracionID": null, "nombre": "Hornilla"},
-    {"sintomaID": 78, "subtipoID": 18, "configuracionID": null, "nombre": "Válvula"},
-    {"sintomaID": 79, "subtipoID": 18, "configuracionID": null, "nombre": "Perilla"},
-    {"sintomaID": 80, "subtipoID": 19, "configuracionID": null, "nombre": "Hornilla"},
-    {"sintomaID": 81, "subtipoID": 19, "configuracionID": null, "nombre": "Válvula"},
-    {"sintomaID": 82, "subtipoID": 19, "configuracionID": null, "nombre": "Perilla"}
+    {"sintomaID": 65, "subtipoID": 14, "configuracionID": null, "nombre": "Hornilla no enciende"}
 ]
