@@ -149,6 +149,20 @@
     {"preguntaID": 148, "sintomaID": 62, "texto": "¿Puede visualizar un indicador de remplazo de filtro?"},
     {"preguntaID": 149, "sintomaID": 62, "texto": "¿El refrigerador dispensa hielo?"},
     {"preguntaID": 150, "sintomaID": 62, "texto": "¿El refrigerador dispensa agua?"},
-    {"preguntaID": 151, "sintomaID": 62, "texto": "¿Subministro de agua externo funciona bien?"}
-    
+    {"preguntaID": 151, "sintomaID": 62, "texto": "¿Subministro de agua externo funciona bien?"},
+    {"preguntaID": 152, "sintomaID": 63, "texto": "¿El congelador enciende alguna luz?"},
+    {"preguntaID": 153, "sintomaID": 63, "texto": "¿Producto muestra código de error?"},
+    {"preguntaID": 154, "sintomaID": 63, "texto": "¿Se puede visualizar escarcha dentro del congelador?"},
+    {"preguntaID": 155, "sintomaID": 63, "texto": "¿El área de congelador está enfriando un poco?"},
+    {"preguntaID": 156, "sintomaID": 63, "texto": "¿Ya verifico que hay electricidad en donde está conectado el producto?"},
+    {"preguntaID": 157, "sintomaID": 64, "texto": "¿El congelador enciende alguna luz?"},
+    {"preguntaID": 158, "sintomaID": 64, "texto": "¿Producto muestra código de error?"},
+    {"preguntaID": 159, "sintomaID": 64, "texto": "¿Se puede visualizar escarcha dentro del congelador?"},
+    {"preguntaID": 160, "sintomaID": 64, "texto": "¿El área de congelador está enfriando un poco?"},
+    {"preguntaID": 161, "sintomaID": 64, "texto": "¿Ya verifico que hay electricidad en donde está conectado el producto?"},
+    {"preguntaID": 162, "sintomaID": 65, "texto": "¿El problema lo detecta en las otras hornillas?"},
+    {"preguntaID": 163, "sintomaID": 65, "texto": "¿El gas está encendido y la válvula abierta?"},
+    {"preguntaID": 164, "sintomaID": 65, "texto": "¿Hornilla está limpia?"},
+    {"preguntaID": 165, "sintomaID": 65, "texto": "¿Estufa usa chispero?"},
+    {"preguntaID": 166, "sintomaID": 65, "texto": "¿Escucha un clic al momento de intentar encender?"}
 ]
