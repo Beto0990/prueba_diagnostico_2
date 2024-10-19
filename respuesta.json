@@ -305,7 +305,7 @@
     {"respuestaID": 304, "preguntaID": 152, "texto": "No", "siguientePreguntaID": 156, "fallaID": null},
     {"respuestaID": 305, "preguntaID": 153, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 1},
     {"respuestaID": 306, "preguntaID": 153, "texto": "No", "siguientePreguntaID": 154, "fallaID": null},
-    {"respuestaID": 307, "preguntaID": 154, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 95},
+    {"respuestaID": 307, "preguntaID": 154, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 96},
     {"respuestaID": 308, "preguntaID": 154, "texto": "No", "siguientePreguntaID": 155, "fallaID": null},
     {"respuestaID": 309, "preguntaID": 155, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 97},
     {"respuestaID": 310, "preguntaID": 155, "texto": "No", "siguientePreguntaID": null, "fallaID": 98},
@@ -315,7 +315,7 @@
     {"respuestaID": 314, "preguntaID": 157, "texto": "No", "siguientePreguntaID": 161, "fallaID": null},
     {"respuestaID": 315, "preguntaID": 158, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 1},
     {"respuestaID": 316, "preguntaID": 158, "texto": "No", "siguientePreguntaID": 159, "fallaID": null},
-    {"respuestaID": 317, "preguntaID": 159, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 95},
+    {"respuestaID": 317, "preguntaID": 159, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 96},
     {"respuestaID": 318, "preguntaID": 159, "texto": "No", "siguientePreguntaID": 160, "fallaID": null},
     {"respuestaID": 319, "preguntaID": 160, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 97},
     {"respuestaID": 320, "preguntaID": 160, "texto": "No", "siguientePreguntaID": null, "fallaID": 98},
@@ -363,5 +363,4 @@
     {"respuestaID": 362, "preguntaID": 181, "texto": "No", "siguientePreguntaID": null, "fallaID": 126},
     {"respuestaID": 363, "preguntaID": 182, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 127},
     {"respuestaID": 364, "preguntaID": 182, "texto": "No", "siguientePreguntaID": null, "fallaID": 128}
-       
 ]
