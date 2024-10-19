@@ -128,6 +128,5 @@
     {"fallaID": 125, "nombre": "Posible problema de conversión de gas", "diagnostico": "Guardar la falla en desperfecto, crear orden de servicio y solicitar a cliente video del problema", "repuestos": "Kit de conversión", "herramientas": "Cilindro de gas con válvula"},
     {"fallaID": 126, "nombre": "Posible problema con el subministro de gas", "diagnostico": "Verifica el suministro de gas y las conexiones, Si el problema persiste, llamar nuevamente para agendar su visita, si desea la visita y el problema es externo al producto la visita puede tener un costo", "repuestos": "inyector, válvula", "herramientas": "Cilindro de gas con válvula"},
     {"fallaID": 127, "nombre": "Problema con perilla", "diagnostico": "Guardar la falla en desperfecto, crear orden de servicio, solicitar a cliente una fotografía en donde se pueda visualizar cual es la perilla con problema", "repuestos": "Perilla", "herramientas": ""},
-    {"fallaID": 128, "nombre": "Problema con perilla", "diagnostico": "Guardar la falla en desperfecto, crear orden de servicio, solicitar a cliente una fotografía en donde se pueda visualizar cuales son las perillas con problema", "repuestos": "Perilla", "herramientas": ""}
-            
+    {"fallaID": 128, "nombre": "Problema con perilla", "diagnostico": "Guardar la falla en desperfecto, crear orden de servicio, solicitar a cliente una fotografía en donde se pueda visualizar cuales son las perillas con problema", "repuestos": "Perilla", "herramientas": ""}         
 ]
