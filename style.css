@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    color: #333;
+}
+
+header {
+    background-color: #034C8C;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+    color: #034C8C;
+}
+
+.sidebar button {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #048ABF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.sidebar button:hover {
+    background-color: #0056b3;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    background-color: #e9ecef;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    border-bottom: 2px solid #454B59;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    color: #034C8C;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    background-color: #048ABF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    min-width: 120px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#diagnosis {
+    margin-top: 20px;
+}
+
+#diagnosis h3 {
+    margin-top: 0;
+}
+
+#diagnosis .failure {
+    background-color: #f8d7da;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+}
+
+#diagnosis .recommendation {
+    background-color: #d1ecf1;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #bee5eb;
+    margin-top: 10px;
+}
+
+#diagnosis .technical-info {
+    background-color: #ecdd93;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f3f053;
+    margin-top: 10px;
+}
+
+#diagnosis .technical-info h4 {
+    margin-top: 0;
+}

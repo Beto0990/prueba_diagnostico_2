@@ -1,0 +1,5 @@
+[
+    {"categoriaID": 1, "nombre": "Lavandería"},
+    {"categoriaID": 2, "nombre": "Refrigeración"},
+    {"categoriaID": 3, "nombre": "Cocción"}
+]
