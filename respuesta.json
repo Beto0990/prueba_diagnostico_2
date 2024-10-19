@@ -306,7 +306,7 @@
     {"respuestaID": 304, "preguntaID": 152, "texto": "No", "siguientePreguntaID": 156, "fallaID": null},
     {"respuestaID": 305, "preguntaID": 153, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 1},
     {"respuestaID": 306, "preguntaID": 153, "texto": "No", "siguientePreguntaID": 154, "fallaID": null},
-    {"respuestaID": 307, "preguntaID": 154, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 95},
+    {"respuestaID": 307, "preguntaID": 154, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 96},
     {"respuestaID": 308, "preguntaID": 154, "texto": "No", "siguientePreguntaID": 155, "fallaID": null},
     {"respuestaID": 309, "preguntaID": 155, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 97},
     {"respuestaID": 310, "preguntaID": 155, "texto": "No", "siguientePreguntaID": null, "fallaID": 98},
