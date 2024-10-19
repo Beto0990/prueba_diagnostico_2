@@ -164,22 +164,5 @@
     {"preguntaID": 163, "sintomaID": 65, "texto": "¿El gas está encendido y la válvula abierta?"},
     {"preguntaID": 164, "sintomaID": 65, "texto": "¿Hornilla está limpia?"},
     {"preguntaID": 165, "sintomaID": 65, "texto": "¿Estufa usa chispero?"},
-    {"preguntaID": 166, "sintomaID": 65, "texto": "¿Escucha un clic al momento de intentar encender?"},
-    {"preguntaID": 167, "sintomaID": 66, "texto": "¿La hornilla se encuentra limpia?"},
-    {"preguntaID": 168, "sintomaID": 66, "texto": "¿El problema lo detecta en las otras hornillas?"},
-    {"preguntaID": 169, "sintomaID": 66, "texto": "¿El gas está encendido y la válvula abierta?"},
-    {"preguntaID": 170, "sintomaID": 67, "texto": "¿Los quemadores de la estufa funcionan normalmente?"},
-    {"preguntaID": 171, "sintomaID": 67, "texto": "¿Escuchas algún sonido, como un clic, cuando intentas encender el horno?"},
-    {"preguntaID": 172, "sintomaID": 67, "texto": "¿El gas está encendido y la válvula abierta?"},
-    {"preguntaID": 173, "sintomaID": 68, "texto": "¿Las otras perillas funcionan normalmente?"},
-    {"preguntaID": 174, "sintomaID": 69, "texto": "¿El problema lo detecta en las otras hornillas?"},
-    {"preguntaID": 175, "sintomaID": 69, "texto": "¿El gas está encendido y la válvula abierta?"},
-    {"preguntaID": 176, "sintomaID": 69, "texto": "¿Hornilla está limpia?"},
-    {"preguntaID": 177, "sintomaID": 69, "texto": "¿Estufa usa chispero?"},
-    {"preguntaID": 178, "sintomaID": 69, "texto": "¿Escucha un clic al momento de intentar encender?"},
-    {"preguntaID": 179, "sintomaID": 70, "texto": "¿La hornilla se encuentra limpia?"},
-    {"preguntaID": 180, "sintomaID": 70, "texto": "¿El problema lo detecta en las otras hornillas?"},
-    {"preguntaID": 181, "sintomaID": 70, "texto": "¿El gas está encendido y la válvula abierta?"},
-    {"preguntaID": 182, "sintomaID": 71, "texto": "¿Las otras perillas funcionan normalmente?"}
-    
+    {"preguntaID": 166, "sintomaID": 65, "texto": "¿Escucha un clic al momento de intentar encender?"}   
 ]    
