@@ -64,4 +64,5 @@
     {"sintomaID": 63, "subtipoID": 12, "configuracionID": null, "nombre": "No congela"},
     {"sintomaID": 64, "subtipoID": 13, "configuracionID": null, "nombre": "No congela"},
     {"sintomaID": 65, "subtipoID": 14, "configuracionID": null, "nombre": "Hornilla no enciende"}
+    
 ]
