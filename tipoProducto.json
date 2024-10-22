@@ -6,6 +6,5 @@
     {"tipoProductoID": 5, "categoriaID": 2, "nombre": "Refrigeradora"},
     {"tipoProductoID": 6, "categoriaID": 2, "nombre": "Congelador"},
     {"tipoProductoID": 7, "categoriaID": 3, "nombre": "Estufa a gas"},
-    {"tipoProductoID": 8, "categoriaID": 3, "nombre": "Estufa eléctrica"},
-    {"tipoProductoID": 9, "categoriaID": 3, "nombre": "Estufa de inducción"}
+    {"tipoProductoID": 8, "categoriaID": 3, "nombre": "Estufa eléctrica"}
   ]
