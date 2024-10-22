@@ -332,5 +332,15 @@
     {"respuestaID": 331, "preguntaID": 166, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 105},
     {"respuestaID": 332, "preguntaID": 166, "texto": "No", "siguientePreguntaID": null, "fallaID": 106},
     {"respuestaID": 333, "preguntaID": 167, "texto": "Sí", "siguientePreguntaID": 168, "fallaID": null},
-    {"respuestaID": 334, "preguntaID": 167, "texto": "No", "siguientePreguntaID": 169, "fallaID": 108}
+    {"respuestaID": 334, "preguntaID": 167, "texto": "No", "siguientePreguntaID": 169, "fallaID": 108},
+     {"respuestaID": 335, "preguntaID": 168, "texto": "Sí", "siguientePreguntaID": 169, "fallaID": null},
+    {"respuestaID": 336, "preguntaID": 168, "texto": "No", "siguientePreguntaID": null, "fallaID": 109},
+    {"respuestaID": 337, "preguntaID": 169, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 110},
+    {"respuestaID": 338, "preguntaID": 169, "texto": "No", "siguientePreguntaID": null, "fallaID": 111},
+    {"respuestaID": 339, "preguntaID": 170, "texto": "Sí", "siguientePreguntaID": 171, "fallaID": null},
+    {"respuestaID": 340, "preguntaID": 170, "texto": "No", "siguientePreguntaID": 172, "fallaID": null},
+    {"respuestaID": 341, "preguntaID": 171, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 112},
+    {"respuestaID": 342, "preguntaID": 171, "texto": "No", "siguientePreguntaID": null, "fallaID": 113},
+    {"respuestaID": 343, "preguntaID": 172, "texto": "Sí", "siguientePreguntaID": null, "fallaID": 114},
+    {"respuestaID": 344, "preguntaID": 172, "texto": "No", "siguientePreguntaID": null, "fallaID": 115}
 ]
