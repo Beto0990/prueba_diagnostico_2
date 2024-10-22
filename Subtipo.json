@@ -15,7 +15,5 @@
     {"subtipoID": 14, "tipoProductoID": 7, "nombre": "Con horno"},
     {"subtipoID": 15, "tipoProductoID": 7, "nombre": "Tipo cooktop"},
     {"subtipoID": 16, "tipoProductoID": 8, "nombre": "Con horno"},
-    {"subtipoID": 17, "tipoProductoID": 8, "nombre": "Tipo cooktop"},
-    {"subtipoID": 18, "tipoProductoID": 9, "nombre": "Con horno"},
-    {"subtipoID": 19, "tipoProductoID": 9, "nombre": "Tipo cooktop"}
+    {"subtipoID": 17, "tipoProductoID": 8, "nombre": "Tipo cooktop"}
   ]
