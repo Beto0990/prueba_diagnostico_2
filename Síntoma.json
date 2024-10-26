@@ -65,5 +65,19 @@
     {"sintomaID": 64, "subtipoID": 13, "configuracionID": null, "nombre": "No congela"},
     {"sintomaID": 65, "subtipoID": 14, "configuracionID": null, "nombre": "Hornilla no enciende"},
     {"sintomaID": 66, "subtipoID": 14, "configuracionID": null, "nombre": "Llama amarilla o débil"},
-    {"sintomaID": 67, "subtipoID": 14, "configuracionID": null, "nombre": "Horno no enciende"}
+    {"sintomaID": 67, "subtipoID": 14, "configuracionID": null, "nombre": "Horno no enciende"},
+    {"sintomaID": 68, "subtipoID": 14, "configuracionID": null, "nombre": "Problema con Perilla"},
+    {"sintomaID": 69, "subtipoID": 15, "configuracionID": null, "nombre": "Hornilla no enciende"},
+    {"sintomaID": 70, "subtipoID": 15, "configuracionID": null, "nombre": "Llama amarilla o débil"},
+    {"sintomaID": 71, "subtipoID": 15, "configuracionID": null, "nombre": "Problema con Perilla"},
+    {"sintomaID": 72, "subtipoID": 16, "configuracionID": null, "nombre": "hornilla no enciende"},
+    {"sintomaID": 73, "subtipoID": 16, "configuracionID": null, "nombre": "hornilla no calienta los suficiente"},
+    {"sintomaID": 74, "subtipoID": 16, "configuracionID": null, "nombre": "Horno no enciende"},
+    {"sintomaID": 75, "subtipoID": 16, "configuracionID": null, "nombre": "Horno no calienta lo suficiente"},
+    {"sintomaID": 76, "subtipoID": 16, "configuracionID": null, "nombre": "Problema con Perillas"},
+    {"sintomaID": 77, "subtipoID": 16, "configuracionID": null, "nombre": "Desgastes o daños fisico"},
+    {"sintomaID": 78, "subtipoID": 17, "configuracionID": null, "nombre": "hornilla no enciende"},
+    {"sintomaID": 79, "subtipoID": 17, "configuracionID": null, "nombre": "hornilla no calienta los suficiente"},
+    {"sintomaID": 80, "subtipoID": 17, "configuracionID": null, "nombre": "Problema con Perillas"},
+    {"sintomaID": 81, "subtipoID": 17, "configuracionID": null, "nombre": "Desgastes o daños fisico"}
 ]
